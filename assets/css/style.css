@@ -134,6 +134,9 @@ main {
 }
 
 footer {
+  display: none;
+  
+  
   text-align: center;
   font-size: smaller;
 
@@ -142,9 +145,15 @@ footer {
 
 @media screen and (min-width: 768px) {
   .card {
-    width: 30%;
-    height: 94vh;
+    position: absolute;
+    left: 50%;
+    top: 50%; 
+    
+    width: 430px;
+    height: 800px;
 
+    transform: translate(-50%, -50%);
+    
   }
 
   footer {
